@@ -1,28 +1,28 @@
-body{
-  margin:0;
-  padding:0;
-  width:100vw;
-  height:100vh;
-  position:relative;
-  background-color:#1d1e22;
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background-color: #1d1e22;
 }
-#center{
-  position:absolute;
-  width:200px;
-  height:200px;
+
+#center {
+  position: absolute;
+  width: 200px;
+  height: 200px;
   top: 50%;
   left: 50%;
-  transform:translate(-50% , -50%);
-  background-image:url(https://raw.githubusercontent.com/oscicen/oscicen.github.io/master/img/knob-bg.png);
-  display:cover;
+  transform: translate(-50%, -50%);
+  background-image: url(https://raw.githubusercontent.com/oscicen/oscicen.github.io/master/img/knob-bg.png);
+  display: cover;
 }
-.knob{
+.knob {
   position: absolute;
   top: 84.8px;
   left: 51.8px;
   width: 94px;
   height: 93px;
-  background-image:url(https://raw.githubusercontent.com/oscicen/oscicen.github.io/master/img/knob.png);
+  background-image: url(https://raw.githubusercontent.com/oscicen/oscicen.github.io/master/img/knob.png);
   z-index: 1;
-
 }
